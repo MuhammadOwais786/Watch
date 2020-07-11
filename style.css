@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    /* background-image: url("https://store-images.s-microsoft.com/image/apps.20683.9007199266251480.c1ace713-cc46-4d34-8369-387d684295fb.1a1a52da-3024-4921-a261-893b2e3a3ddf?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hea{
+    color: #000;
+    display: inline-block;
+    width: 15%;
+    background-color: #fff;
+    font-size: 30px !important;
+    padding: 15px 10px 15px 10px;
+    margin: 50px 05px 50px 05px !important;
+    border-radius: 40px;
+}
+.header>h1 {
+    background-color: rgb(1, 20, 20);
+    color: #fff;
+    font-size: 45px;
+    padding: 30px 30px 30px 30px;
+    margin: -15px -10px 20px -10px;
+}
+
+.num {
+    /* background-color: rgb(105, 109, 109); */
+    background-color: rgb(1, 53, 41);
+    padding: 80px 0px 80px 0px;
+    margin: 20px 300px 20px 300px !important;
+    border-radius: 10px !important;
+}
+
+.number{
+    color: #000;
+    display: inline-block;
+    width: 15%;
+    background-color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 50px 05px 50px 05px !important;
+    border-radius: 40px;
+}
+button {
+    font-size: 30px;
+    margin: 30px 20px 20px 20px;
+    padding: 10px 50px 10px 50px !important;
+    background-color: rgb(187, 187, 187) !important;
+    border: 5px solid black !important;
+    border-radius: 20px !important;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(120, 131, 133) !important;
+}
+
+button:disabled {
+    background-color: rgb(24, 26, 26) !important;
+    color: #fff !important;
+}
+
+#text{
+    width : 500px !important;
+    height: 50px !important;
+    padding: 30px 10px 30px 10px;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+    border-radius: 20px;
+    outline: none;
+}
+#button{
+    color: #000;
+    font-size: 30px;
+    background-color: rgb(110, 110, 110);
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight : bold;
+    letter-spacing: 2px;
+}
+#button:hover {
+    background-color: rgb(79, 83, 83) !important;
+}
+
+@media only screen and (max-width: 634px) {
+    .num {
+        background-color: rgb(105, 109, 109);
+        padding: 80px 0px 80px 0px;
+        margin: 20px 100px 20px 100px !important;
+        border-radius: 10px !important;
+        width: 230px;
+        float: left;
+    }
+    
+}
+@media only screen and (max-width: 421px) {
+    .num {
+        background-color: rgb(105, 109, 109);
+        padding: 80px 0px 80px 0px;
+        margin: 20px 70px 20px 70px !important;
+        border-radius: 10px !important;
+        width: 230px;
+        float: left;
+    }
+    
+}
